@@ -542,7 +542,12 @@ local function WVVVF_fake_script() -- Home.LocalScript
 	local script = Instance.new('LocalScript', Home)
 
 	-------------------------------------------------------------------------
-
+	
+    argsnumb = 2
+    if game.PlaceId == 6935553532 then
+		argsnumb = 1
+	end
+    
 	replayvis = {}
 	replaypart = {}
 	GITButtonsArray = {
@@ -614,28 +619,33 @@ local function WVVVF_fake_script() -- Home.LocalScript
 			if not checkcaller() then
 				return
 			end
-			args[1] = plamer
-			args[2]["legA"] = plamer.legA.Value
-			args[2]["hasfly"] = plamer.hasfly.Value
-			args[2]["scale"] = Vector3.new(1, 1, 1)
-			args[2]["torso"] = plamer.torso.Value
-			args[2]["hastoy"] = plamer.hastoy.Value
-			args[2]["armC"] = plamer.armC.Value
-			args[2]["skin"] = plamer.skin.Value
-			args[2]["map"] = plamer.map.Value
-			args[2]["hat"] = plamer.hat.Value
-			args[2]["hasboard"] = plamer.hasboard.Value
-			args[2]["head"] = plamer.head.Value
-			args[2]["armB"] = plamer.armB.Value
-			args[2]["armD"] = plamer.armD.Value
-			args[2]["legB"] = plamer.legB.Value
-			args[2]["skate"] = plamer.skate.Value
-			args[2]["hasflame"] = plamer.hasflame.Value
-			args[2]["health"] = plamer.health.Value
-			args[2]["faceid"] = plamer.faceid.Value
-			args[2]["bees"] = plamer.bees.Value
-			args[2]["mps"] = plamer.mps.Value
-			args[2]["armA"] = plamer.armA.Value
+			if game.PlaceId ~= 6935553532 then
+			    args[1] = plamer
+			end
+			args[argsnumb]["legA"] = plamer.legA.Value
+			args[argsnumb]["hasfly"] = plamer.hasfly.Value
+			args[argsnumb]["scale"] = Vector3.new(1, 1, 1)
+			args[argsnumb]["torso"] = plamer.torso.Value
+			args[argsnumb]["hastoy"] = plamer.hastoy.Value
+			args[argsnumb]["armC"] = plamer.armC.Value
+			args[argsnumb]["skin"] = plamer.skin.Value
+			args[argsnumb]["map"] = plamer.map.Value
+			args[argsnumb]["hat"] = plamer.hat.Value
+			args[argsnumb]["hasboard"] = plamer.hasboard.Value
+			args[argsnumb]["head"] = plamer.head.Value
+			args[argsnumb]["armB"] = plamer.armB.Value
+			args[argsnumb]["armD"] = plamer.armD.Value
+			args[argsnumb]["legB"] = plamer.legB.Value
+			args[argsnumb]["skate"] = plamer.skate.Value
+			args[argsnumb]["hasflame"] = plamer.hasflame.Value
+			args[argsnumb]["health"] = plamer.health.Value
+			args[argsnumb]["faceid"] = plamer.faceid.Value
+			args[argsnumb]["bees"] = plamer.bees.Value
+			args[argsnumb]["mps"] = plamer.mps.Value
+			args[argsnumb]["armA"] = plamer.armA.Value
+			if game.PlaceId == 6935553532 then
+			    args[1]["dot"] = plamer.dot.Value 
+			end
 		end
 		return namecall(self, table.unpack(args))
 	end)
@@ -738,6 +748,7 @@ local function WVVVF_fake_script() -- Home.LocalScript
 	-------------------------------------------------------------------------
 
 	RunService.RenderStepped:Connect(function(step)
+	    if game.PlaceId ~= 6935553532 then
 		workspace.share.replicate:FireServer(table.unpack({
 			[1] = workspace.plam.awsometomine,
 			[2] = {
@@ -764,6 +775,34 @@ local function WVVVF_fake_script() -- Home.LocalScript
 				["armA"] = plamer.armA.Value,
 			},
 		}))
+		else
+		    workspace.share.replicate:FireServer(table.unpack({
+			[1] = {
+				["legA"] = plamer.legA.Value,
+				["hasfly"] = plamer.hasfly.Value,
+				["scale"] = Vector3.new(1, 1, 1),
+				["torso"] = plamer.torso.Value,
+				["hastoy"] = plamer.hastoy.Value,
+				["armC"] = plamer.armC.Value,
+				["skin"] = plamer.skin.Value,
+				["map"] = plamer.map.Value,
+				["hat"] = plamer.hat.Value,
+				["hasboard"] = plamer.hasboard.Value,
+				["head"] = plamer.head.Value,
+				["armB"] = plamer.armD.Value,
+				["armD"] = plamer.armB.Value,
+				["skate"] = plamer.skate.Value,
+				["legB"] = plamer.legB.Value,
+				["hasflame"] = plamer.hasflame.Value,
+				["health"] = plamer.health.Value,
+				["faceid"] = plamer.faceid.Value,
+				["bees"] = plamer.bees.Value,
+				["mps"] = plamer.mps.Value,
+				["armA"] = plamer.armA.Value,
+				["dot"] = plamer.dot.Value,
+			},
+		}))
+	    end
 		canload = true
 		if status == "DANCING" then
 			if not game.workspace.plam:FindFirstChild("DANCER") then

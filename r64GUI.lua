@@ -27,6 +27,7 @@ local httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainDefaultDancetx
 local httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainHotlineBlingtxt = Instance.new("TextButton")
 local httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainElectroShuffletxt = Instance.new("TextButton")
 local httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFreeFlowtxt = Instance.new("TextButton")
+local httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt = Instance.new("TextButton")
 local TextLabel_3 = Instance.new("TextLabel")
 local Player = Instance.new("Frame")
 local title = Instance.new("TextLabel")
@@ -309,6 +310,19 @@ httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFreeFlowtxt.Text = "
 httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFreeFlowtxt.TextColor3 = Color3.fromRGB(255, 255, 255)
 httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFreeFlowtxt.TextSize = 14.000
 
+httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt.Name = "https://raw.githubusercontent.com/Awesometomine/R64-Custom-Dances/main/Floss.txt"
+httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt.Parent = Dances
+httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt.BackgroundTransparency = 0.800
+httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt.BorderColor3 = Color3.fromRGB(255, 255, 255)
+httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt.BorderSizePixel = 5
+httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt.Position = UDim2.new(0, 0, 2.03450526e-07, 0)
+httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt.Size = UDim2.new(0, 350, 0, 50)
+httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt.Font = Enum.Font.SourceSans
+httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt.Text = "Floss"
+httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt.TextColor3 = Color3.fromRGB(255, 255, 255)
+httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt.TextSize = 14.000
+
 TextLabel_3.Parent = backg
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.BackgroundTransparency = 1.000
@@ -540,6 +554,7 @@ local function WVVVF_fake_script() -- Home.LocalScript
 		httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainHotlineBlingtxt,
 		httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainElectroShuffletxt,
 		httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFreeFlowtxt,
+		httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt,
 	}
 	armA, armB, armC, armD, head, legA, legB, torso = {},{},{},{},{},{},{},{}
 

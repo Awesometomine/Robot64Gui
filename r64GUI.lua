@@ -765,7 +765,7 @@ local function WVVVF_fake_script() -- Home.LocalScript
 	RunService.RenderStepped:Connect(function(step)
 	    if game.PlaceId ~= 6935553532 then
 		workspace.share.replicate:FireServer(table.unpack({
-			[1] = workspace.plam.awsometomine,
+			[1] = workspace.plam[PlayerName],
 			[2] = {
 				["legA"] = plamer.legA.Value,
 				["hasfly"] = plamer.hasfly.Value,

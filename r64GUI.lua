@@ -305,7 +305,7 @@ httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFreeFlowtxt.Text = "
 httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFreeFlowtxt.TextColor3 = Color3.fromRGB(255, 255, 255)
 httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFreeFlowtxt.TextSize = 14.000
 
-httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt.Name = "https://raw.githubusercontent.com/Awesometomine/R64-Custom-Dances/main/floss.txt"
+httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt.Name = "https://raw.githubusercontent.com/Awesometomine/R64-Custom-Dances/main/Floss.txt"
 httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt.Parent = Dances
 httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt.BackgroundTransparency = 0.800

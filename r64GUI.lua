@@ -1,3 +1,5 @@
+--Creds to Emk530 for making the noclip/fly
+--https://github.com/EmK530
 local Home = Instance.new("ScreenGui")
 local TextButton = Instance.new("TextButton")
 local backg = Instance.new("Frame")

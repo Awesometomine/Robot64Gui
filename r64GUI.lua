@@ -623,7 +623,7 @@ local function WVVVF_fake_script() -- Home.LocalScript
 			args[argsnumb]["hasfly"] = plamer.hasfly.Value
 			args[argsnumb]["scale"] = Vector3.new(1, 1, 1)
 			args[argsnumb]["torso"] = plamer.torso.Value
-			args[argsnumb]["hastoy"] = plamer.hastoy.Value
+			args[argsnumb]["hastoy"] = true
 			args[argsnumb]["armC"] = plamer.armC.Value
 			args[argsnumb]["skin"] = plamer.skin.Value
 			args[argsnumb]["map"] = plamer.map.Value
@@ -637,7 +637,7 @@ local function WVVVF_fake_script() -- Home.LocalScript
 			args[argsnumb]["hasflame"] = plamer.hasflame.Value
 			args[argsnumb]["health"] = plamer.health.Value
 			args[argsnumb]["faceid"] = plamer.faceid.Value
-			args[argsnumb]["bees"] = plamer.bees.Value
+			args[argsnumb]["bees"] = true
 			args[argsnumb]["mps"] = plamer.mps.Value
 			args[argsnumb]["armA"] = plamer.armA.Value
 			if game.PlaceId == 6935553532 then
@@ -753,7 +753,7 @@ local function WVVVF_fake_script() -- Home.LocalScript
 				["hasfly"] = plamer.hasfly.Value,
 				["scale"] = Vector3.new(1, 1, 1),
 				["torso"] = plamer.torso.Value,
-				["hastoy"] = plamer.hastoy.Value,
+				["hastoy"] = true,
 				["armC"] = plamer.armC.Value,
 				["skin"] = plamer.skin.Value,
 				["map"] = plamer.map.Value,
@@ -767,7 +767,7 @@ local function WVVVF_fake_script() -- Home.LocalScript
 				["hasflame"] = plamer.hasflame.Value,
 				["health"] = plamer.health.Value,
 				["faceid"] = plamer.faceid.Value,
-				["bees"] = plamer.bees.Value,
+				["bees"] = true,
 				["mps"] = plamer.mps.Value,
 				["armA"] = plamer.armA.Value,
 			},
@@ -779,7 +779,7 @@ local function WVVVF_fake_script() -- Home.LocalScript
 				["hasfly"] = plamer.hasfly.Value,
 				["scale"] = Vector3.new(1, 1, 1),
 				["torso"] = plamer.torso.Value,
-				["hastoy"] = plamer.hastoy.Value,
+				["hastoy"] = true,
 				["armC"] = plamer.armC.Value,
 				["skin"] = plamer.skin.Value,
 				["map"] = plamer.map.Value,
@@ -793,7 +793,7 @@ local function WVVVF_fake_script() -- Home.LocalScript
 				["hasflame"] = plamer.hasflame.Value,
 				["health"] = plamer.health.Value,
 				["faceid"] = plamer.faceid.Value,
-				["bees"] = plamer.bees.Value,
+				["bees"] = true,
 				["mps"] = plamer.mps.Value,
 				["armA"] = plamer.armA.Value,
 				["dot"] = plamer.dot.Value,

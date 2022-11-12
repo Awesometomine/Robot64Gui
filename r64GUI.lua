@@ -23,7 +23,6 @@ local httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainHotlineBlingtx
 local httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainElectroShuffletxt = Instance.new("TextButton")
 local httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFreeFlowtxt = Instance.new("TextButton")
 local httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt = Instance.new("TextButton")
-local httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainEMKrecording = Instance.new("TextButton")
 local TextLabel_3 = Instance.new("TextLabel")
 local Player = Instance.new("Frame")
 local title = Instance.new("TextLabel")
@@ -569,7 +568,6 @@ local function WVVVF_fake_script() -- Home.LocalScript
 		httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainElectroShuffletxt,
 		httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFreeFlowtxt,
 		httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainFlosstxt,
-		httpsrawgithubusercontentcomAwesometomineR64CustomDancesmainEMKrecording,
 	}
 	armA, armB, armC, armD, head, legA, legB, torso = {},{},{},{},{},{},{},{}
 

@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local Home = Instance.new("ScreenGui")
 local TextButton = Instance.new("TextButton")
 local backg = Instance.new("Frame")

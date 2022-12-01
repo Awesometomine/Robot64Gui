@@ -802,10 +802,10 @@ local function WVVVF_fake_script() -- Home.LocalScript
 	    end
 		canload = true
 		if status == "DANCING" then
-			if not game.workspace.plam:FindFirstChild("DANCER") then
+			if not game.workspace.plam:FindFirstChild(game:GetService("Players").LocalPlayer.Name .. " ") then
 				dancer = game.workspace.plam[game.Players.LocalPlayer.Name]:Clone()
 				dancer.Parent = game.workspace.plam
-				dancer.Name = "DANCER"
+				dancer.Name = game:GetService("Players").LocalPlayer.Name .. " "
 				dancevis = game.ReplicatedFirst.vis:Clone()
 				dancevis.Parent = game.workspace
 				dancevis.Name = "DANCEVIS"
@@ -819,7 +819,7 @@ local function WVVVF_fake_script() -- Home.LocalScript
 				end
 			end
 			danceframes = danceframes +1
-			plamer = game.workspace.plam.DANCER
+			plamer = game.workspace.plam:FindFirstChild(game:GetService("Players").LocalPlayer.Name .. " ")
 			mimicplayer.TextColor3 = Color3.new(1, 0, 0)
 			mimicplayer.Text = "Mimic plam"
 			if danceframes < #torso then

@@ -885,7 +885,7 @@ local function WVVVF_fake_script() -- Home.LocalScript
 			if status ~= "DANCING" then
 				plamer = game.workspace.plam[game:GetService("Players").LocalPlayer.Name]
 			else
-				plamer = game.workspace.plam.DANCER
+				plamer = game.workspace.plam:FindFirstChild(game:GetService("Players").LocalPlayer.Name .. " ")
 			end
 			mimicplayer.TextColor3 = Color3.new(1, 0, 0)
 			mimicplayer.Text = "Mimic plam"

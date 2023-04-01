@@ -988,6 +988,7 @@ local function FOBKKX_fake_script() -- Home.noclip
 	local uis = game:GetService("UserInputService")
 	local speed = 3
 	while true do
+		senv = getsenv(game.Players.LocalPlayer.PlayerScripts.CharacterScript)
 		senv.char.Anchored = true
 		while true do
 			game.Workspace.Gravity = 0
